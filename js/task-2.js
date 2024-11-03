@@ -1,3 +1,4 @@
+console.log("task 2");
 const getUsersWithFriend = (users, friendName) => {
   return users.filter((user) => user.friends.includes(friendName));
 };
